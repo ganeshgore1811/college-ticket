@@ -99,4 +99,28 @@ body {
       font-family: "Brush Script MT", cursive;
       font-size: 30px;
     }
+
+  @media (max-width:600px) {
+    .ticket{
+      width: 70%;
+    }
+    .ticket-header{
+      padding: 10px;
+    }
+    .ticket-header h1{
+      font-size: 20px;
+    }
+    .img{
+      width: 80px;
+    }
+    .img:hover{
+      width: 90px;
+    }
+    .img-scan{
+      width: 70px;
+    }
+    .img-scan:hover{
+      width: 90px;
+    }
+  }
     
